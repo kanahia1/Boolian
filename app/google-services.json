@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1020368290628",
+    "project_id": "boolian-25fcd",
+    "storage_bucket": "boolian-25fcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020368290628:android:d4a4611e8d104bc3d28d11",
+        "android_client_info": {
+          "package_name": "com.kanahia.boolianapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020368290628-8tfr1m5l33ph4ccbv8tr1tgdcd56k8jo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kanahia.boolianapp",
+            "certificate_hash": "83d75cc99de46df1c238caea3854ee88137b3f99"
+          }
+        },
+        {
+          "client_id": "1020368290628-c1i1dol5vufmv1034vgcr9teokgo2021.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALugn3EeVEzITb2WcwQi8vD-ln53GvxBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020368290628-c1i1dol5vufmv1034vgcr9teokgo2021.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
