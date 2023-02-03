@@ -1,4 +1,5 @@
 # Boolian
+<img src="https://user-images.githubusercontent.com/114223204/216722756-cb8a8b11-6a63-4108-b29c-386b8477fbc7.jpg" width="48">
 
 Boolian is simple app designed to help people learn about NFTs, NFTs have became a hype now a days.
 
