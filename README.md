@@ -5,7 +5,7 @@ Boolian is simple app designed to help people learn about NFTs, NFTs have became
 
 # App Screenshots
 
-![Screenshot_20230204_034614_Boolian App](https://user-images.githubusercontent.com/114223204/216721894-20cd721e-9f34-410e-936e-5745948a8aab.jpg)
+<img src="https://user-images.githubusercontent.com/114223204/216721894-20cd721e-9f34-410e-936e-5745948a8aab.jpg" width="250">
 ![Screenshot_20230204_034622_Boolian App](https://user-images.githubusercontent.com/114223204/216721906-f1d7c1a2-6c66-49de-af7f-5bce7dc6a27e.jpg)
 ![Screenshot_20230204_034718_Boolian App](https://user-images.githubusercontent.com/114223204/216721915-5a6817d3-57cd-4137-99e5-7a23a11ad4b3.jpg)
 ![Screenshot_20230204_034736_Boolian App](https://user-images.githubusercontent.com/114223204/216721918-478bfa56-3d11-4c32-bcb9-d59ccb46d734.jpg)
