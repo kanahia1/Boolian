@@ -118,6 +118,8 @@ class QuestionActivity : AppCompatActivity(), View.OnClickListener {
         }
 
         b.nextBtn.setOnClickListener {
+
+            ans = data!!.quizList[0].ans
             if (b.textNext.text == "Next") {
                 b.textNext.text = "Submit"
                 when (ans) {
@@ -147,8 +149,6 @@ class QuestionActivity : AppCompatActivity(), View.OnClickListener {
                     }
                 }
                 when (selectedId) {
-
-
                     R.id.o1Btn -> {
                         if (ans == b.o1.text) {
                             b.o1.setTextColor(Color.WHITE)
@@ -505,26 +505,10 @@ class QuestionActivity : AppCompatActivity(), View.OnClickListener {
 
                 b.textView8.setText(obj.q)
 
-                b.o1.text = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-                    Html.fromHtml(obj.o1, Html.FROM_HTML_MODE_COMPACT)
-                } else {
-                    Html.fromHtml(obj.o1)
-                }
-                b.o2.text = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-                    Html.fromHtml(obj.o2, Html.FROM_HTML_MODE_COMPACT)
-                } else {
-                    Html.fromHtml(obj.o2)
-                }
-                b.o3.text = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-                    Html.fromHtml(obj.o3, Html.FROM_HTML_MODE_COMPACT)
-                } else {
-                    Html.fromHtml(obj.o3)
-                }
-                b.o4.text = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-                    Html.fromHtml(obj.o4, Html.FROM_HTML_MODE_COMPACT)
-                } else {
-                    Html.fromHtml(obj.o4)
-                }
+                b.o1.text = obj.o1
+                b.o2.text = obj.o2
+                b.o3.text = obj.o3
+                b.o4.text = obj.o4
             }
         } else if (selectedItem == 0) {
             setupIntroLayout(data!!)
