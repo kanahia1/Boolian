@@ -6,18 +6,19 @@ Boolian is minimal app designed to help people learn about NFTs,as NFTs have bec
 
 ## Features and UI
 1. Login Page
-   - Login with the provided user id and password
-   - Powered by JWT tokens
+   - Login with Google Sign In
+   - Integrated with Firebase
 
 2. Home page
-   - Shows all the exams assigned to the user
-   - The user can start an exam only on the correct timeslot
-   - Logout through button in the app bar
+   - Shows all the available courses
+   - Once a course is completed another course get unlocked
+   - Progress around Profile button displays progress
+   - Logout through button in the Profile button
 
-3. Exam Page
-   - The user can answer MCQ-based questions
-   - The user can also view their progress
-   -
+3. Starting Page
+   - Displays the structure of course
+   - Displays the title of course
+  
  ![Frame 5](https://github.com/kanahia1/Boolian/assets/114223204/67de45aa-38f7-4fd7-8c5a-da59120327e8)
 
 5. Login Page
